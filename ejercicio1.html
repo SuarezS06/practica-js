@@ -6,14 +6,39 @@
   <title>Document</title>
 </head>
 <body>
+
+  <header></header>
+  <main></main>
+  <footer></footer>
+
+  <script src="./js/mensaje-consola.js"></script>
   
-<h1>Hola</h1>
-<p>
-  Lorem ipsum dolor sit amet consectetur adipisicing el
-  it. Molestias magni natus facere neque in autem consequu
-  ntur pariatur assumenda repudiandae, aperiam veritatis cumque
-   similique porro, aliquid, recusandae deleniti esse expedita 
-   culpa?
-</p>
+  <script>
+    //Comentario
+    /*Comentario multi linea*/
+
+    console.log("Mensaje convensional")
+    console.log("Primer mensaje", "segundo mensaje")
+    console.log("Python", "Javascript", "PHP", "Java")
+
+    let nombres = "samuel"
+    console.log("Bienvendio ", nombres)
+
+    //Invocar mi funcion
+   mostrarEnConsola()
+
+    console.error("Algo no ha funciondado")
+    console.warn("Ten cuidado con lo que estas haciendo")
+
+    console.group()
+    console.log("Arequipa")
+    console.log("Ica")
+    console.log("Lima")
+    console.log("Tacna")
+    console.groupEnd()
+
+  </script>
+
+  
 </body>
 </html>
