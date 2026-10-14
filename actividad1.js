@@ -39,3 +39,5 @@ const pelicula = {
   direccion: ["James Cameron"],
   escritores: ["James Cameron"]
 }
+
+console.log(pelicula)
