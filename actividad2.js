@@ -13,3 +13,5 @@ const computadora = {
     }
 
 }
+
+console.log(computadora)
